@@ -24,19 +24,13 @@
   display: grid;
 }
 
-p {
-  -moz-text-size-adjust: none;
-  -webkit-text-size-adjust: none;
-  -ms-text-size-adjust: none;
-}
-
 h2, h3 {
   text-align: center;
   color: #a83a01;
 }
 
 .button {
-  margin-left: 50px;
+  margin: 20px 20px  20px 50px;
   background-color: #009dd2;
   color: #a83a01;
   padding: 10px;
@@ -45,6 +39,7 @@ h2, h3 {
   border-radius: 5px;
   box-shadow: 5px 5px #002338;
   cursor: pointer;
+  text-align: center;
 }
 .button:hover{
   background-color: #002338;
