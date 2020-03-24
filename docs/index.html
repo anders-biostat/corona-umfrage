@@ -8,13 +8,13 @@
 	<div class="container">
 		<form id="mainForm">
 			<div class="grid">
-				<div class="block">
+				<div class="block header">
 					<h2>Helfen Sie mit, dem Coronavirus nachzuspüren</h2>
 					<h3>... indem Sie uns sagen, wie es Ihnen geht!</h3>
 					<p class="highligted">Wenn sich am selben Ort viele Leute krank fühlen, ist das vielleicht Covid-19.</p>
 					<p>Wenn jeder einmal täglich schnell diese Fragen beantwortet, werden wir das merken.</p>
 				</div>
-				<div class="block">
+				<div class="block left">
 					<h3>Kurz über Sie</h3>
 					<p><b>Alter</b>: <input type="text" name="entry.2115741372" size="1"> Jahre</p>
 					<p>
@@ -23,13 +23,13 @@
 						<input type="radio" name="entry.1694446867" value="d" id="d" checked><label for="d">keine Angabe / divers</label>
 					</p>
 				</div>
-				<div class="block">
+				<div class="block right">
 					<h3>Wo wohnen Sie?</h3>
 					<p>Meine Postleitzahl (<b>PLZ</b>): <input type="text" name="entry.2079250418" size="2"></p>
 					<p>Haben Sie sich sonst noch wo länger aufgehalten in den letzten 5 Tagen? (z.B. Arbeitsplatz)</p>
 					<p>weitere Postleitzahlen: <input type="text" name="entry.7236635" size="5"> (ggf. mit Kommas getrennt)</p>
 				</div>
-				<div class="block">
+				<div class="block left">
 					<h3>Wie geht es Ihnen heute? Fehlt ihnen etwas?</h3>
 					<p>
 						<input type="checkbox" name="entry.720341760" value="gesund" id="gesund"><label for="gesund">Ich fühle mich <b>gesund</b>.</label><br>
@@ -48,8 +48,8 @@
 						Körpertemperatur: <input type="number" name="entry.348367839" size="1"> °C
 					</p>
 				</div>
-				<div class="block">
-					<h3>Noch drei kurze Fragen:</h3>
+				<div class="block right">
+					<h3>Noch zwei kurze Fragen:</h3>
 					<p>
 						Haben Sie Diabetes, hohen Blutdruck, Asthma, oder chronische Erkrankungen von Herz, Lungen oder Nieren?<br>
 						<input type="radio" name="entry.1130185710" value="Nein" checked id="k_nein"><label for="k_nein">Nein.</label>
@@ -62,15 +62,16 @@
 						<input type="radio" name="entry.1524483832" value="Ja" id="r_ja"><label for="r_ja">Ja.</label>
 						<input type="radio" name="entry.1524483832" value="Keine Angabe" id="keine"><label for="keine">Keine Angabe.</label>					
 					</p>
-					<p>Sind Sie einverstanden, dass wir diese Daten speichern?<br>
-	  				Dann klicken Sie auf "Abschicken"</p>
-	  			<div onclick="submit();" class="button">Abschicken</div>
+				</div>
+				<div class="block header">
+					<p>Sind Sie einverstanden, dass wir diese Daten speichern? Dann klicken Sie auf "Abschicken".</p>
+	  			<div onclick="submit();" class="button">Abschicken</div>					
 				</div>
 			</div>
 		</form>
 	</div>
 	<div class="container">
-		<div class="block">
+		<div class="block header">
 			<h2>Weitere Infos</h2>
 			<ul>
 				<li>Das hier ist ein Versuch, zu zählen, wie viele Leute sich in jedem PLZ-Gebiet gesund fühlen und wie viele krank.</li>
