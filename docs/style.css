@@ -43,6 +43,7 @@ h2, h3 {
   font-weight: bold;
   border-radius: 5px;
   box-shadow: 5px 5px #002338;
+  cursor: pointer;
 }
 .button:hover{
   background-color: #002338;
