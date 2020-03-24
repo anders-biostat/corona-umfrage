@@ -21,3 +21,19 @@ h2, h3 {
   text-align: center;
   color: #143A52;
 }
+
+.button {
+  background-color: #6E828A;
+  color: #e3eff3;
+  padding: 10px;
+  width: 100px;
+  font-weight: bold;
+}
+.button:hover{
+  background-color: #143A52;
+}
+
+a {
+  text-decoration: none;
+  color: #143A52;
+}

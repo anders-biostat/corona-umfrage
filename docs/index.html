@@ -20,7 +20,7 @@
 					<p>
 						<input type="radio" name="entry.1694446867" value="f" id="f"><label for="f"><b>Frau</b></label>
 						<input type="radio" name="entry.1694446867" value="m" id="m"><label for="m"><b>Mann</b></label>
-						<input type="radio" name="entry.1694446867" value="d" id="d"><label for="d">keine Angabe / divers</label>
+						<input type="radio" name="entry.1694446867" value="d" id="d" checked><label for="d">keine Angabe / divers</label>
 					</p>
 				</div>
 				<div class="block">
@@ -64,7 +64,7 @@
 					</p>
 					<p>Sind Sie einverstanden, dass wir diese Daten speichern?<br>
 	  				Dann klicken Sie auf "Abschicken"</p>
-	  			<div onclick="submit();">Abschicken</div>
+	  			<div onclick="submit();" class="button">Abschicken</div>
 				</div>
 			</div>
 		</form>
@@ -90,7 +90,12 @@
 			var form = document.getElementById("mainForm");
 			for ( var i = 0; i < (form.elements.length - 1); i++ ) {
    			var e = form.elements[i];
-   			kvpairs.push(encodeURIComponent(e.name) + "=" + encodeURIComponent(e.value));
+   			if(e.type == "text" || e.type == "number") {
+   				kvpairs.push(encodeURIComponent(e.name) + "=" + encodeURIComponent(e.value));
+   			} else if(e.type == "radio" || e.type == "checkbox"){
+   				if(e.checked)
+   					kvpairs.push(encodeURIComponent(e.name) + "=" + encodeURIComponent(e.value));
+   			}
 			}
 			var queryString = kvpairs.join("&");
 
