@@ -3,37 +3,42 @@
   margin-left: auto;
   margin-right: auto;
   display: block;
-  background-color: #6E828A;
+  background-color: #009dd2;
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #1e577b;
+  color: #002338;
   font-size: 13pt;
   margin-top: 40px;
 }
 
 .block {
-  background-color: #e3eff3;
+  background-color: #ffebcc;
   padding: 25px;
-  margin: 10px;
+  margin: 20px;
+  border-radius: 25px;
+  box-shadow: 10px 10px #002338;
 }
 
 h2, h3 {
   text-align: center;
-  color: #143A52;
+  color: #a83a01;
 }
 
 .button {
-  background-color: #6E828A;
-  color: #e3eff3;
+  background-color: #009dd2;
+  color: #a83a01;
   padding: 10px;
   width: 100px;
   font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 5px 5px #002338;
 }
 .button:hover{
-  background-color: #143A52;
+  background-color: #002338;
+  color: #ffca03;
 }
 
 a {
   text-decoration: none;
-  color: #143A52;
+  color: #a83a01;
 }
