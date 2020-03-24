@@ -96,7 +96,7 @@
 		function submit() {
 			var kvpairs = [];
 			var form = document.getElementById("mainForm");
-			for ( var i = 0; i < (form.elements.length - 1); i++ ) {
+			for ( var i = 0; i < form.elements.length; i++ ) {
    			var e = form.elements[i];
    			if(e.type == "text" || e.type == "number") {
    				kvpairs.push(encodeURIComponent(e.name) + "=" + encodeURIComponent(e.value));
