@@ -51,6 +51,10 @@ a {
   color: #a83a01;
 }
 
+li {
+  margin-top: 25px;
+}
+
 @media (min-width: 1000px) {
   .grid { grid-template-columns: 3fr 2fr; }
   .header {grid-column: 1/3;}
