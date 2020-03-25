@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="de">
 <meta charset="utf-8"/>
-<meta property="og:url" content="https://anders-biostat.github.io/corona-umfrage/" />
+<meta property="og:url" content="http://corona-frage.de/" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Helfen Sie mit, dem Coronavirus nachzuspüren">
 <meta property="og:description" content="Sagen Sie uns Ihre Postleitzahl und wie es Ihnen geht Wenn sich viele Leute am selben Ort krank fühlen, ist es vielleicht Corona. " />
-<meta property="og:image" content="https://anders-biostat.github.io/corona-umfrage/page_preview.png" />
+<meta property="og:image" content="https://corona-frage.de/page_preview.png" />
 <head>
-	<title>COVID-19 Umfrage</title>
+	<title>corona-frage.de</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -48,7 +48,7 @@
 						<input type="checkbox" name="entry.720341760" value="Husten" id="Husten"><label for="Husten">Ich habe <b>Husten</b>.</label><br>
 						<input type="checkbox" name="entry.720341760" value="abgeschlagen" id="abgeschlagen"><label for="abgeschlagen">Ich fühle mich <b>abgeschlagen</b> oder <b>erschöpft</b></label><br>						
 						<input type="checkbox" name="entry.720341760" value="Gliederschmerzen" id="Gliederschmerzen"><label for="Gliederschmerzen">Ich habe <b>Gliederschmerzen</b> (Arme oder Beine tun weh).</label><br>
-						<input type="checkbox" name="entry.720341760" value="Kurzatmigkeit" id="Kurzatmigkeit"><label for="Kurzatmigkeit">Ich habe <b>Probleme</b> beim <b>Atem</b> (Kurzatmigkeit).</label><br>
+						<input type="checkbox" name="entry.720341760" value="Kurzatmigkeit" id="Kurzatmigkeit"><label for="Kurzatmigkeit">Ich habe <b>Probleme</b> beim <b>Atmen</b> (Kurzatmigkeit).</label><br>
 						<input type="checkbox" name="entry.720341760" value="Schnupfen" id="Schnupfen"><label for="Schnupfen">Ich habe eine laufende oder verstopfte Nase (<b>Schnupfen</b>).</label><br>
 						<input type="checkbox" name="entry.720341760" value="Durchfall" id="Durchfall"><label for="Durchfall">Ich habe <b>Durchfall</b>.</label><br>
 						<input type="checkbox" name="entry.720341760" value="uebel" id="uebel"><label for="uebel">Mir ist <b>übel</b> und ich musste mich <b>übergeben</b>.</label><br>
@@ -65,8 +65,8 @@
 						Haben Sie <b>Diabetes</b>, hohen <b>Blutdruck</b>, <b>Asthma</b>, oder <b>chronische Erkrankungen</b> von Herz, Lungen oder Nieren?<br>
 					</p>
 					<p>
-						<input type="radio" name="entry.1130185710" value="Nein" checked id="k_nein"><label for="k_nein">Nein.</label>
-						<input type="radio" name="entry.1130185710" value="Ja" id="k_ja"><label for="k_ja">Ja.</label>
+						<input type="radio" name="entry.1130185710" value="Nein" checked id="k_nein"><label for="k_nein"><b>Nein.</b></label>
+						<input type="radio" name="entry.1130185710" value="Ja" id="k_ja"><label for="k_ja"><b>Ja.</b></label>
 						<input type="radio" name="entry.1130185710" value="Weiss nicht" id="Weiss_nicht"><label for="Weiss_nicht">Weiß nicht.</label>					
 					</p>
 					<p>
@@ -79,9 +79,14 @@
 						<input type="radio" name="entry.1524483832" value="keine Angabe" id="keine"><label for="keine">Keine Angabe.</label>					
 					</p>
 				</div>
-				<div class="block header">
+				<div class="block left">
 					<p>Sind Sie einverstanden, dass wir diese Daten speichern? Dann klicken Sie auf "Abschicken".</p>
 	  			    <div onclick="submit();" class="button">Abschicken</div>					
+				</div>
+				<div class="block right">
+					<p>Zu den <b>Ergebnisse</b>n der Umfrage geht es</p>
+					<p align="middle"> <a href="results.html"><b>hier</b></a></p> 
+				    <p>(sobald wir welche haben).</p>
 				</div>
 			</div>
 		</form>
