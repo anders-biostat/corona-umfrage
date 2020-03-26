@@ -9,6 +9,9 @@
   color: #002338;
   margin-top: 40px;
   line-height: 1.5;
+  font-size: 18px;
+  max-height: 999999px;
+  text-size-adjust: 170%;
 }
 
 .block {
