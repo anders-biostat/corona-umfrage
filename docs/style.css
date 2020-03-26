@@ -11,7 +11,7 @@
   line-height: 1.5;
   font-size: 18px;
   max-height: 999999px;
-  text-size-adjust: 170%;
+  text-size-adjust: 220%;
 }
 
 .block {
@@ -36,7 +36,7 @@ h2, h3 {
   background-color: #009dd2;
   color: #a83a01;
   padding: 10px;
-  width: 100px;
+  width: 150px;
   font-weight: bold;
   border-radius: 5px;
   box-shadow: 5px 5px #002338;
